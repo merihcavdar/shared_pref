@@ -1,16 +1,12 @@
-# shared_pref
+# Shared Prefs
 
-A new Flutter project.
+an app for setting and getting data from Shared Preferences, locally from the phone in Flutter
 
-## Getting Started
+## screenshot
+![shared_prefs](https://github.com/merihcavdar/shared_prefs/assets/84540989/80656b43-e7fb-4042-bffa-61c525e4e625)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## features
+- async programming for accessing shared preferences getInstance() func
+- 3rd party package usage called (shared_preferences by Flutter team)
+- Form widgets usage (TextField, RadioListTile, CheckboxListTile, SwitchListTile, TextButton)
+- initState usage for populating the widges from the local data in advance
